@@ -1,0 +1,205 @@
+/* header */
+#cabecalho{
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px;
+    background-color:white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+}
+
+/* header */
+#titulo-principal{
+    margin-left: 30px;
+    align-items: center;
+}
+
+/* header - barra de navegacao*/
+.nav-bar{
+    display:flex;
+    flex-direction:row;
+    margin-right: 30px;
+}
+
+/* header - design das divs da nav bar*/
+.nav-bar div{
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+/* header */
+.anchor-navbar{
+    color:rgb(22, 103, 174);
+}
+
+/* links para os topicos do portfolio */
+#link-sobre{
+    padding: 10px;
+    height: 30px;
+}
+
+#link-trajetoria{
+    padding: 10px;
+    height: 30px;
+}
+
+#link-proj{
+    padding: 10px;
+    height: 30px;
+}
+
+/* main */
+#portfolio{
+    margin-top:0px;
+    padding-top:20px;
+    margin-right: -8px;
+    margin-left: -10px;
+    background: linear-gradient(to bottom, rgb(60, 182, 196), rgb(255, 255, 255));
+}
+
+#diamante{
+    height:250px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 120px;
+}
+
+#sobre-mim{
+    background-color:rgb(22, 103, 174);
+    margin-top:50px;
+    margin-left: 500px;
+    margin-right:60px;
+    padding:30px;
+    height: 270px;
+    border-radius: 15px;
+}
+
+#titulo-sobre{
+    color:aliceblue;
+    margin-top:0px;
+}
+
+.descricao-sobre{
+    margin-right: 400px;
+    display:flex;
+    flex-direction: row;
+    margin-right:30px;
+    text-align: justify;
+    font-size: 19px;
+    color: rgb(195, 235, 243);
+}
+
+#img-sobre{
+    margin-top:-50px;
+    border-radius:300px;
+    margin-left:20px;
+    height:250px;
+    border: 3px solid white;
+}
+
+#trajetoria{
+    background-color:rgb(240, 245, 248);
+    margin-top:80px;
+    margin-left:50px;
+    margin-right: 200px;
+    padding:30px;
+    border-radius: 15px;
+}
+
+.titulo-trajetoria{
+    color:navy;
+    margin-top:0px;
+}
+
+/* descricao da trajetoria */
+.sub-trajetoria{
+    color:navy;
+    font-size: 20px;
+    text-align: justify
+}
+
+#projetos{
+    background-color:rgb(22, 103, 174);
+    padding:30px;
+    margin-top:80px;
+    margin-left:300px;
+    margin-right: 300px;
+    height: 200px;
+    border-radius: 15px;
+    
+}
+
+#titulo-projetos{
+    margin-top: 0px;
+    color:white;
+}
+
+.desc-proj{
+    color:white;
+    padding:10px;
+}
+
+/* botoes enuncicado e codigo */
+.botao-proj{
+    border-radius: 8px;
+    height: 30px;
+    border: 3px solid white;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.anchor-proj{
+    color:navy;
+}
+
+/* alinha horizontalmente os projetos */
+#alinhar-projs{
+    display:flex;
+    flex-direction:row;
+    margin-top:50px;
+    justify-content: space-between;
+}
+
+/* alinha verticalmente os componentes de cada projeto */
+.alinhar-comp-proj{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contato{
+    background-color: rgb(21, 65, 91);
+    margin-top:100px;
+    height: 260px;
+}
+
+#titulo-contato{
+    padding: 30px;
+    color: white;
+}
+
+.desc-contato{
+    color:white;
+    margin-left: 10px;
+    margin-top: -9px;
+}
+
+.img-cntt{
+    height: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.meio-cntt{
+    display: flex;
+    align-items: center;
+}
+
+.anchor-cntt{
+    color:white;
+}
